@@ -9,7 +9,7 @@
 // When done run `.exit`
 
 
-const Board= require('./board.js');
+import {Board} from './board.js';
 
 
 class Game  {       //you could extend Board here and simplify the code, however this is the method that Codecademy suggested.
